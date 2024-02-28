@@ -1,0 +1,346 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+button{
+    border: 0px;
+    background-color: blue;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+button span{
+padding: 5px;
+}
+
+.homeMainBanner{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.headerRow{
+    flex-direction: row;
+    display: flex;
+    gap:16px;
+    justify-content: space-between;
+    margin-left:16px;
+    margin-right:16px
+}
+.banner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.imgBanner {
+    width: 100vw !important;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right:0px
+}
+.headerContainer{
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ width: 100%;
+ padding-top:40px;
+ padding-left: 0%;
+ background-color: #EAC926;
+
+}
+    
+
+    .inputContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+    .intro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap:16px
+    }
+
+
+
+
+
+body{
+    width:100vw;
+    margin:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 361px; 
+    background-color: #ebebeb;;
+ }
+
+main .mainContainer{
+    width: 30%;
+    display: flex;
+    justify-content: center;  
+    gap: 10px;
+
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 32px;
+   align-items: center;
+}
+
+
+
+.cardProduct{
+    width: 30%;
+    background-color: #ebebeb;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+
+
+}
+
+.imgLogo{
+    width: 140px;
+}
+
+.texto{
+    font-size: 12px;
+    color: #39b54a;
+    text-align: right;
+}
+.textoDeHead{
+    font-size: 12px;
+    font-weight: 500;
+}
+.lista1{
+    font-size: 12px;
+    width:80%
+}
+.lista2{
+    font-size: 12px;
+    width:80%
+}
+.titular{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #666;
+}
+.precios{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+h3{
+    font-size: 16px;
+}
+
+
+.menuHead li{
+    font-size: 25px;
+}
+
+.contenedor1{
+display: flex;
+flex-wrap: nowrap;    
+border-top: solid 1px #ebebeb;
+padding: 15px;
+width:100%
+ }
+
+.iconoDeEnvio{
+    font-size: 30px;
+    color: #39b54a;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menuHead{
+align-content: space-around;
+align-items: center;
+padding: 5px;
+
+}
+.menu{
+        font-size: 50px;    
+        align-items: center;
+        flex-direction: row;
+
+        }
+.footer{
+        text-align: center;
+        color: #666;
+        }
+        .textofooter{
+        text-align: center;
+        color: #666;
+}
+.iconosDeFooter{
+    font-size: 40px;
+    text-align: center;
+    color:#0c3bd3;
+    transition: 45ms, 0.5s;
+}
+.iconosDeFooter:hover{
+    color: #031550;
+    font-size: 60px;
+}
+
+.footerFinal{
+    color: #ebebeb;
+    text-align: center;
+}
+
+.contenedorCartas{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap:24px
+    
+
+}
+
+.boxFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 769px){
+    .buttonMenuBurguer{
+        display: none;
+    }
+
+  
+
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .homeMainBanner{
+        flex-direction: row;
+       justify-content: space-around;
+
+    
+        
+    }
+
+    .imgLogo{
+        width: 250px;
+    }
+ 
+    .textoDeHead{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .headerRow{
+        gap:40px;
+        margin-left:16px;
+        margin-right:16px;
+        font-size: 16px;
+    }
+
+    .cardsContainer{
+        flex-direction: column;
+        gap: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .cardProduct{
+        width:45%;
+        background-color: #ebebeb;;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .contenedorCartas{
+        display: flex;
+        width: 100;
+        flex-direction: row;
+        gap:24px
+        
+
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .lista1{
+        display: flex;
+        flex-direction: row;
+        width: 45%;
+        font-size: 16px;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .lista2{
+        display: flex;
+        flex-direction: row;
+        width: 45%;
+        font-size: 16px;
+        justify-content: space-around;
+        list-style: none;
+
+        
+    }
+
+    .lista2 li{
+        width: fit-content;
+    }
+
+    .menuButton{
+        display: flex;
+        gap:8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxFooter{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 769px ){
+    .menuHead{
+        display: none;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
